@@ -4,5 +4,14 @@ h1 {
 }
 
 body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Open Sans', Arial, sans-serif,sans-serif;
+  font-size: 1em;
+  color: #444444;
+}
+
+head {
+  font-size: 3em;
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
 }
