@@ -1,0 +1,52 @@
+#headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+#byline {
+  font-size: 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 180%;
+  font-size: 1em;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
