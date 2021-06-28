@@ -1,0 +1,234 @@
+#tophat {
+  width:100%;
+  color:red;
+  background:#000;
+  font-family: 'Montserrat', sans-serif;
+  padding:3px;
+  text-align:center;
+  font-size:.75em;
+  text-transform:uppercase;
+  position:relative;
+  z-index:10;
+  font-weight:700;
+  opacity:.8;
+}
+
+.hero {
+  background-image: url(sonia-hug-streetview.jpg);
+  height: 100vh;
+  width: 100%;
+}
+ #hero-text {
+   padding-top: 150px;
+   font-style: bold;
+   
+ }
+
+ #story-title {
+   font-family: 'Oswald';
+   text-align: center;
+ }
+
+ .lead {
+   font-weight: 0;
+   text-align: center;
+ }
+
+ .red {
+   color: red;
+ }
+
+ .white {
+   color: white;
+ }
+
+
+ .hero-back {
+   background: rgba(0, 0, 0, 0.5);
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 5px;
+   padding-right: 20px;
+   text-align: center;
+ }
+
+ 
+
+ .chapter-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  width:35%;
+  background-color:  rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+.text-author{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  margin-bottom: 70px;
+  font-style: italic;
+}
+
+.text-title{
+  font-family: 'Playfair Display', serif;
+  font-size:2.2em;
+  letter-spacing: 2px;
+  line-height:140%;
+  font-weight: 200;
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+
+.caption {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 20px;
+  margin: auto;
+  max-width: 500px;
+}
+
+.story-container {
+  position: relative;
+}
+
+.title-author {
+  max-width: 900px;
+  margin: auto;
+}
+
+.story-text {
+  max-width: 700px;
+  margin: auto;
+  font-family: 'Benne';
+  font-size: 1.2em;
+  margin-top: 50px;
+}
+
+.melissa-image {
+  width: 75%;
+  margin: auto;
+  display: block;
+}
+
+.harriet {
+  width: 75%;
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.simmons {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.climate {
+  width: 60%;
+  margin: auto;
+  display: block;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+#first-letter {
+  font-style: bold;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: red;
+}
+
+#button {
+  margin: auto;
+  text-align: center;
+  
+}
+
+
+.section-header {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3 em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-style: bold;
+  
+}
+
+.graphic {
+  margin: auto;
+  max-width: 800px;
+}
+
+.pull-quote {
+  margin: auto;
+  max-width: 700px;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.quote {
+  margin-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: bold;
+  font-size: 1.3em;
+}
+
+.attribute {
+  font-size: 1em;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#end-authors {
+  font-style: italic;
+}
+@media screen and (min-width:600px) and (max-width: 800px) {
+  .story-text {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .story-text {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width:950px){
+  .title-author {
+    max-width: 600px;
+  }
+  .harriet {
+    width: 100%;
+  }
+  .melissa-image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .title-author {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .graphic {
+    width: 80%;
+  }
+  .climate {
+    width: 80%;
+  }
+}
