@@ -199,6 +199,9 @@ a:visited {
 #end-authors {
   font-style: italic;
 }
+
+/* media queries */
+
 @media screen and (min-width:600px) and (max-width: 800px) {
   .story-text {
     max-width: 600px;
