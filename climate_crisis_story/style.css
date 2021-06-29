@@ -18,10 +18,10 @@
   height: 100vh;
   width: 100%;
 }
- #hero-text {
+ 
+#hero-text {
    padding-top: 150px;
    font-style: bold;
-   
  }
 
  #story-title {
@@ -42,7 +42,6 @@
    color: white;
  }
 
-
  .hero-back {
    background: rgba(0, 0, 0, 0.5);
    color: white;
@@ -51,8 +50,6 @@
    padding-right: 20px;
    text-align: center;
  }
-
- 
 
  .chapter-header{
   font-family: 'Montserrat', sans-serif;
@@ -157,14 +154,12 @@ a:visited {
   
 }
 
-
 .section-header {
   font-family: 'Playfair Display', serif;
   font-size: 1.3 em;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-style: bold;
-  
 }
 
 .graphic {
@@ -193,7 +188,6 @@ a:visited {
   font-size: 1em;
   font-style: italic;
   font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
 #end-authors {
