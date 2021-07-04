@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: 'Bona Nova', serif;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 60px;
+  color: red;
+}
+
+.hero-p {
+  font-size: 20px;
+}
+
+.head-img {
+  height: 100%;
+  width: 100vw;
+}
+
+.drug-img {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.caption {
+  font-size: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.story-container {
+  position: relative;
+}
+
+.section-header {
+  margin-left: 300px;
+  font-family: 'Bona Nova', serif;
+  font-size: 20px;
+  color: #c93a52;
+}
+
+.finish-line {
+  
+  font-family: 'Bona Nova', serif;
+  font-size: 20px;
+  color: #c93a52;
+  font-style: italic;
+  margin: auto;
+  max-width: 800px;
+  font-size: 15px;
+}
+
+.text-title {
+  margin: auto;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 38px;
+}
+
+.story-text {
+  margin: auto;
+  max-width: 700px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+}
+
+.graphic {
+  margin: auto;
+  max-width: 800px;
+}
+
+.pull-quote {
+  margin: auto;
+  max-width: 700px;
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.quote {
+  margin-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: bold;
+  font-size: 1.3em;
+}
+.attribute {
+  font-size: 1em;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 1200px){
+  .section-header {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media  screen and (max-width: 1000px){
+  .text-title {
+    max-width: 600px;
+  }
+  .graphic {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 850px){
+  .finish-line {
+    max-width: 80%;
+  }
+}
+
+@media  screen and (max-width:800px){
+  .story-text {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .text-title {
+    max-width: 500px;
+  }
+  .story-text {
+    max-width: 500px;
+  }
+  .pull-quote {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .story-text {
+    max-width: 450px;
+  }
+}
